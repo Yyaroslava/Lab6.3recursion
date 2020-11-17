@@ -8,7 +8,7 @@ using namespace std;
 
 
 template <typename T>
-void Create_r(T* c, const int size, const int Low, const int High, int i) {
+void Create_r(T* c, const int size, T Low, T High, int i) {
     if (i == size) {
         return;
     }
